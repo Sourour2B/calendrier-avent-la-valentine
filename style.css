@@ -1,0 +1,216 @@
+:root {
+    /* Couleurs de Noël */
+    --color-primary: #C0392B; 
+    --color-secondary: #F39C12; 
+    --color-background: #1a1a1a;
+    --grid-gap: 0; /* Espacement mis à ZÉRO */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', Comic Sans, cursive ;
+    color: white;
+    /* Fond d'écran chaleureux et joyeux */
+    background-image: url('assets/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.title {
+    color: var(--color-secondary);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+#calendar-container {
+    width: 90vw;
+    max-width: 1000px;
+    
+    display: grid;
+    /* Nouveau : 6 colonnes, chacune prenant 1 fraction (1fr) de l'espace */
+    grid-template-columns: repeat(6, 1fr); 
+    
+    grid-gap: var(--grid-gap);
+    padding: 0;
+    /* ... autres styles ... */
+}
+
+/* --- Positionnement Aléatoire (pour le désordre) --- */
+/* Ceci force les cases à ne pas se suivre */
+.day-1 { grid-area: 1 / 1 ; }    /* Ligne 1, Col 1 */
+.day-2 { grid-area: 3 / 2 ; }    /* Ligne 3, Col 2 */
+.day-3 { grid-area: 4 / 5 ; }    /* Ligne 2, Col 4 */
+.day-4 { grid-area: 2 / 2; }    /* Ligne 5, Col 6 */
+.day-5 { grid-area: 1 / 5; }    /* Ligne 1, Col 5 */
+/* ... Continuez à assigner aléatoirement les 24 classes .day-X à des emplacements dans la grille ... */
+.day-6 { grid-area: 3 / 5; }
+.day-7 { grid-area: 2 / 1 ; }
+.day-8 { grid-area: 3 / 4 ; }
+.day-9 { grid-area: 3 / 3 ; }
+.day-10 { grid-area: 1 / 3 ; }
+.day-11 { grid-area: 2 / 4 ; }
+.day-12 { grid-area: 2 / 6; }
+.day-13 { grid-area: 2 / 5; }
+.day-14 { grid-area: 4 / 3; }
+.day-15 { grid-area: 2 / 3 ; }
+.day-16 { grid-area: 3 / 6 ; }
+.day-17 { grid-area: 1 / 2; }
+.day-18 { grid-area: 4 / 1 ; }
+.day-19 { grid-area: 4 / 4 ; }
+.day-20 { grid-area: 3 / 1 ; }
+.day-21 { grid-area: 4 / 6 ; }
+.day-22 { grid-area: 1 / 6 ; }
+.day-23 { grid-area: 1 / 4 ; }
+.day-24 { grid-area: 4 / 2 ; }
+
+
+/* --- Style de la Case Fermée (La Porte) --- */
+.day {
+    aspect-ratio: 1 / 1; /* Force la case à être un carré */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    cursor: default; /* Curseur par défaut pour les jours bloqués */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    
+    /* Image de Noël différente pour chaque case (Porte) */
+    background-size: cover;
+    background-position: center;
+    background-color: var(--color-primary); /* Couleur de secours */
+    border: 3px solid var(--color-secondary);
+    
+    /* Animation: la base pour l'ouverture */
+    transition: transform 0.5s ease-out, box-shadow 0.3s;
+    transform-style: preserve-3d; /* Nécessaire pour l'animation 3D */
+}
+
+/* Assignation des images des portes (à remplacer par vos images dans le dossier assets) */
+.day-1 { background-image: url('assets/case-1.jpg'); }
+.day-2 { background-image: url('assets/case-2.jpg'); }
+/* ... continuez jusqu'à .day-24 ... */
+
+.day-3 { background-image: url('assets/case-3.jpg'); }
+.day-4 { background-image: url('assets/case-4.jpg'); }
+.day-5 { background-image: url('assets/case-5.jpg'); }
+.day-6 { background-image: url('assets/case-6.jpg'); }
+.day-7 { background-image: url('assets/case-7.jpg'); }
+.day-8 { background-image: url('assets/case-8.jpg'); }
+.day-9 { background-image: url('assets/case-9.jpg'); }
+.day-10 { background-image: url('assets/case-10.jpg'); }
+.day-11 { background-image: url('assets/case-11.jpg'); }
+.day-12 { background-image: url('assets/case-12.jpg'); }
+.day-13 { background-image: url('assets/case-13.jpg'); }
+.day-14 { background-image: url('assets/case-14.jpg'); }
+.day-15 { background-image: url('assets/case-15.jpg'); }
+.day-16 { background-image: url('assets/case-16.jpg'); }
+.day-17 { background-image: url('assets/case-17.jpg'); }
+.day-18 { background-image: url('assets/case-18.jpg'); }
+.day-19 { background-image: url('assets/case-19.jpg'); }
+.day-20 { background-image: url('assets/case-20.jpg'); }
+.day-21 { background-image: url('assets/case-21.jpg'); }
+.day-22 { background-image: url('assets/case-22.jpg'); }
+.day-23 { background-image: url('assets/case-23.jpg'); }
+.day-24 { background-image: url('assets/case-24.jpg'); }
+
+
+
+/* --- États d'Ouverture et de Blocage --- */
+
+/* Casse fermée (Jour futur) */
+.day:not(.open):not(.unlocked) {
+    opacity: 0.7;
+    pointer-events: none; /* Rendre inouvrable */
+}
+
+/* Case débloquée (Jour J ou Passé) */
+.day.unlocked {
+    cursor: pointer;
+    opacity: 1;
+}
+
+/* Effet au survol des cases débloquées */
+.day.unlocked:hover {
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.6);
+}
+
+/* --- Animation d'Ouverture (3D Flip/Zoom) --- */
+
+.day.open {
+    /* Animation spectaculaire : zoom et rotation */
+    transform: perspective(1000px) rotateY(180deg) scale(1.1);
+    opacity: 1; /* Reste complètement visible */
+    
+}
+
+
+/* --- MODALE (Contenu) --- */
+#modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    transition: opacity 0.3s;
+}
+
+#modal-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modal-content {
+    background: white;
+    color: var(--color-background);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 10px 50px rgba(255, 255, 255, 0.4);
+    /* Animation d'apparition */
+    transform: scale(0.8);
+    opacity: 0;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.5s;
+}
+
+#modal-overlay:not(.hidden) #modal-content {
+    transform: scale(1);
+    opacity: 1;
+}
+
+#close-modal {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2em;
+    cursor: pointer;
+    color: var(--color-primary);
+}
+
+#modal-body img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border-radius: 8px;
+}
