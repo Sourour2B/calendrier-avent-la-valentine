@@ -15,8 +15,8 @@ const ADVENT_CONTENT = {
     },
     2: { 
         title: "Jour 2 : Le paiement provisoire par acance (PPA) ", 
-        text: "un paiement provisoire par avance (PPA) peut être versé à un allocataire qui ne fournit pas les justificatifs concernant son activité reprise lors de son actualisation.<br>Pour avoir droit au PPA, plusieurs critères sont requis :<br>• être éligible au PPA <br>• être toujours à la recherche d’un emploi<br>• déclarer les montants des rémunérations issues de la reprise d’activité en l’absence des justificatifs<br><br>Ne sont pas éligibles au paiement provisoire :<br><br> • contrat aidé <br>• bénéficiaire saisie arrêt/pension alimentaire <br>• bénéficiaire acompte non soldé <br>• allocation hors RAC<br>• exclusion individuelle - MATA <br>• en cours activité conservée <br>• Ouverture de Droit ARE au titre d’une convention de gestion
- 
+        text: "un paiement provisoire par avance (PPA) peut être versé à un allocataire qui ne fournit pas les justificatifs concernant son activité reprise lors de son actualisation.<br>Pour avoir droit au PPA, plusieurs critères sont requis :<br>• être éligible au PPA <br>• être toujours à la recherche d’un emploi<br>• déclarer les montants des rémunérations issues de la reprise d’activité en l’absence des justificatifs<br><br>Ne sont pas éligibles au paiement provisoire :<br><br> • contrat aidé <br>• bénéficiaire saisie arrêt/pension alimentaire <br>• bénéficiaire acompte non soldé <br>• allocation hors RAC<br>• exclusion individuelle - MATA <br>• en cours activité conservée <br>• Ouverture de Droit ARE au titre d’une convention de gestion.<br><br>Le PPA représente 80% de ce qui devrait être payé sur la base des informations transmises par l’allocataire. Son paiement s’effectue au plus tôt de l’actualisation, au moment du paiement principal cette avance fera l’objet d’une régularisation dès la prochaine mise en paiement, qu’elle concerne le mois en question (lors de la communication des justificatifs manquants) ou une autre période (antérieure ou postérieure au PPA).<br> L’avance peut ainsi être récupérée sur tous les paiements à venir (ARE, AREF, ARCE, ASP et ASP ARE).
+
  ",
         image: "assets/contenu-1.jpg" 
     },
@@ -204,6 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
