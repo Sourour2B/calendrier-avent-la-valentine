@@ -10,7 +10,7 @@ const CURRENT_YEAR = new Date().getFullYear(); // Année actuelle (ex: 2025)
 const ADVENT_CONTENT = {
     1: { 
         title: "Jour 1 : L'actualisation ", 
-        text: "C'est parti ! ",
+        text: "Les activités et événements du mois d'actualisation présents dans le dossier du DE sont automatiquement restitués à l'ouverture du formulaire.<br>Le DE doit vérifier les informations pré-remplies identifiées par le tag « [activité ou un événement] connu de France Travail », et selon la couleur :<br><br>- Fond vert : il peut uniquement modifier/supprimer une DPAE. Il a la possibilité de renseigner les infos signalées « à compléter » (facultatif)<br> - Fond violet + tag « A compléter » : il doit saisir les informations obligatoires manquantes pour pouvoir valider son formulaire.<br><br>LA CERTIFICATION DU NIR Il est important d’avoir des NIR certifiés afin de récupérer des informations provenant d’autres organismes via transmission de flux. Cela permet d'avoir le maximum d’informations dans les dossiers DE et donc d’optimiser le pré-remplissage. ",
         image: "assets/contenu-1.jpg" 
     },
     2: { 
@@ -202,6 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
