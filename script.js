@@ -38,8 +38,9 @@ const ADVENT_CONTENT = {
         image: "assets/contenu-1.jpg" 
     },
     6: { 
-        title: "Jour 6 : ACTU s", 
-        text: "C'est parti ! ",
+        title: "Jour 6 : Choix du dispositif pour les créateurs", 
+        text: "Lorsque le DE démarre ou a démarré une ANS , il a le choix entre :<br> 🎅 Un Maintien des droits : un décalage des droits est effectué en tenant compte des rémunérations.<br>🦌 Une Aide à la Reprise ou la Création d’Entreprise (ARCE) : une aide de 60 % (45 % pour les FCT < 1er juillet 2023 ou OD A8/A10) du capital restant à la date de création, versée en 2 fois (avec un écart de 6 mois entre les versements).<br><br> Quel que soit le dispositif dans lequel le DE sera, ne pas oublier de tracer les contacts afin de suivre l’avancement du dossier.<br><br><br> En ASS : Un cumul intégral est possible pendant 3 mois et au-delà en l’absence de rémunération. En cas d’obtention de l’ARCE, le cumul est intégral jusqu’à 12 mois au-delà en l’absence de rémunération.
+ ",
         image: "assets/contenu-1.jpg" 
     },
     7: { 
@@ -213,6 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
