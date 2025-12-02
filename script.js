@@ -26,8 +26,9 @@ const ADVENT_CONTENT = {
     },
     // ... AJOUTEZ LE CONTENU POUR LES JOURS 4 À 24 ...
     4: { 
-        title: "Jour 4 : ACTU ", 
-        text: "C'est parti ! ",
+        title: "Jour 4 : Les Carences  ", 
+        text: " * Délai d'attente réglementaire : 7 jours (appliqué à tous, sauf si déjà appliqué dans les 12 derniers mois).<br>* Différé Indemnités Congés Payés : Si le DE touche une indemnité de congés payés à la fin de votre contrat, l'indemnisation est reportée (Max 30 jours).<br>* Différé "Supra-légal" : Si le DE touche une indemnité de rupture (licenciement, rupture conv.) supérieure au minimum légal, un différé supplémentaire s'applique (Max 150 jours, ou 75 jours si licenciement économique).
+ ",
         image: "assets/contenu-1.jpg" 
     },
     5: { 
@@ -211,6 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
