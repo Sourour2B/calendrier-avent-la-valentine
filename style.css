@@ -221,7 +221,7 @@ body {
 .footer-copyright {
     margin-top: 40px;      
     font-size: 0.85em;      
-    color: rgba(255, 255, 255, 0.6); /* Blanc transparent discret */
+    color: rgba(0, 0, 0, 0.7); /* noir transparent discret */
     text-align: center;
     width: 100%;
     
@@ -240,3 +240,4 @@ body {
     font-size: 1.2em;
     vertical-align: middle;
 }
+
