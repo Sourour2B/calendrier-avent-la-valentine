@@ -216,12 +216,27 @@ body {
 
 }
 
-/* --- Style du Copyright --- */
+
+/* --- Style du Copyright (Final) --- */
 .footer-copyright {
-    margin-top: 40px;      /* Espace entre la grille et le texte */
-    font-size: 0.9em;      /* Texte un peu plus petit */
-    color: rgba(255, 255, 255, 0.7); /* Blanc avec un peu de transparence */
+    margin-top: 40px;      
+    font-size: 0.85em;      
+    color: rgba(255, 255, 255, 0.6); /* Blanc transparent discret */
     text-align: center;
     width: 100%;
-    text-shadow: 1px 1px 2px black; /* Lisibilité sur le fond */
+    
+    /* Police standard propre (PC et Mac) */
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    
+    font-weight: 300;       
+    letter-spacing: 1px;    
+    text-shadow: none;      
+    padding-bottom: 20px;   
+}
+
+/* Style du petit flocon/icône */
+.icon-noel {
+    margin: 0 8px;
+    font-size: 1.2em;
+    vertical-align: middle;
 }
