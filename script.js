@@ -21,7 +21,7 @@ const ADVENT_CONTENT = {
     },
     3: { 
         title: "Jour 3 : Réinscription suite à expiration du titre de séjour ", 
-        text: "Le Demandeur d’emploi présente à l’accueil son titre de séjour après cessation d’inscription au motif d’échéance du précédent titre.<br> Après avoir consulté les modalités de vérification des titres de séjour et autorisation de travail. (voir tableau récapitulatif des titres de séjour permettant l’inscription) <br><br>➢ Il convient de le réinscrire dans un délai de 30 jours calendaires suivant la date d’expiration du titre, <br><br>➢ S’assurer de lui faire compléter le document d’actualisation pour le mois à rattraper afin de connaitre le(s) événement(s) survenu(s) pendant cette interruption, <br><br>➢ Au-delà de 30 jours, renvoyer le DE vers le script d’inscription sur FT.fr avec une possibilité de demande d’inscription rétroactive (voir Saisie des inscriptions rétroactives)",
+        text: "Le Demandeur d’emploi présente à l’accueil son titre de séjour après cessation d’inscription au motif d’échéance du précédent titre.<br> Après avoir consulté les modalités de vérification des titres de séjour et autorisation de travail. (voir tableau récapitulatif des titres de séjour permettant l’inscription) <br><br> Il convient :<br> ➢de le réinscrire dans un délai de 30 jours calendaires suivant la date d’expiration du titre, <br><br>➢ S’assurer de lui faire compléter le document d’actualisation pour le mois à rattraper afin de connaitre le(s) événement(s) survenu(s) pendant cette interruption, <br><br>➢ Au-delà de 30 jours, renvoyer le DE vers le script d’inscription sur FT.fr avec une possibilité de demande d’inscription rétroactive (voir Saisie des inscriptions rétroactives)",
         image: "assets/contenu-1.jpg" 
     },
     // ... AJOUTEZ LE CONTENU POUR LES JOURS 4 À 24 ...
@@ -211,6 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
