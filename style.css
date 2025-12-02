@@ -213,4 +213,15 @@ body {
     display: block;
     margin: 15px 0;
     border-radius: 8px;
+
+}
+
+/* --- Style du Copyright --- */
+.footer-copyright {
+    margin-top: 40px;      /* Espace entre la grille et le texte */
+    font-size: 0.9em;      /* Texte un peu plus petit */
+    color: rgba(255, 255, 255, 0.7); /* Blanc avec un peu de transparence */
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 1px 2px black; /* Lisibilité sur le fond */
 }
