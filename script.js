@@ -24,7 +24,7 @@ const ADVENT_CONTENT = {
         text: "Le Demandeur d’emploi présente à l’accueil son titre de séjour après cessation d’inscription au motif d’échéance du précédent titre.<br> Après avoir consulté les modalités de vérification des titres de séjour et autorisation de travail. (voir tableau récapitulatif des titres de séjour permettant l’inscription) <br><br> Il convient :<br> ➢de le réinscrire dans un délai de 30 jours calendaires suivant la date d’expiration du titre, <br><br>➢ S’assurer de lui faire compléter le document d’actualisation pour le mois à rattraper afin de connaitre le(s) événement(s) survenu(s) pendant cette interruption, <br><br>➢ Au-delà de 30 jours, renvoyer le DE vers le script d’inscription sur FT.fr avec une possibilité de demande d’inscription rétroactive (voir Saisie des inscriptions rétroactives)",
         image: "assets/contenu-1.jpg" 
     },
-    // ... AJOUTEZ LE CONTENU POUR LES JOURS 4 À 24 ...
+    
     4: { 
         title: "Jour 4 : Les Carences  ", 
         text: " * Délai d'attente réglementaire : 7 jours (appliqué à tous, sauf si déjà appliqué dans les 12 derniers mois).<br>* Différé Indemnités Congés Payés : Si le DE touche une indemnité de congés payés à la fin de votre contrat, l'indemnisation est reportée (Max 30 jours).<br>* Différé "Supra-légal" : Si le DE touche une indemnité de rupture (licenciement, rupture conv.) supérieure au minimum légal, un différé supplémentaire s'applique (Max 150 jours, ou 75 jours si licenciement économique).
@@ -32,8 +32,9 @@ const ADVENT_CONTENT = {
         image: "assets/contenu-1.jpg" 
     },
     5: { 
-        title: "Jour 5 : ACTU ", 
-        text: "C'est parti ! ",
+        title: "Jour 5 : Délai de traitement ", 
+        text: "CVM : 48h à 72h  ouvrés (hors week-end).<br> Réclamation: 7 jours.<br> Demande d’allocation:  21 jours ouvrés.<br> Après dépot de documents : 10 jours
+ ",
         image: "assets/contenu-1.jpg" 
     },
     6: { 
@@ -212,6 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
