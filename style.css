@@ -226,7 +226,7 @@ body {
     width: 100%;
     
     /* Police standard propre (PC et Mac) */
-    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Arial Black", Roboto, Helvetica, Arial, sans-serif;
     
     font-weight: bold;       
     letter-spacing: 1px;    
@@ -240,6 +240,7 @@ body {
     font-size: 1.2em;
     vertical-align: middle;
 }
+
 
 
 
