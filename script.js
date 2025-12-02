@@ -27,17 +27,17 @@ const ADVENT_CONTENT = {
     
     4: { 
         title: "Jour 4 : Les Carences  ", 
-        text: " 🦌 Délai d'attente réglementaire : 7 jours , appliqué à tous, sauf si déjà appliqué dans les 12 derniers mois <br>🎅 Différé Indemnités Congés Payés : Si le DE touche une indemnité de congés payés à la fin de votre contrat, l'indemnisation est reportée, Max 30 jours<br>❄️ Différé Supra-légal : Si le DE touche une indemnité de rupture,  licenciement, rupture conv. supérieure au minimum légal, un différé supplémentaire s'applique , Max 150 jours, ou 75 jours si licenciement économique.",
+        text: " ",
         image: "assets/contenu-1.jpg" 
     },
     5: { 
         title: "Jour 5 : Délai de traitement ", 
-        text: "🎁 CVM : 48h à 72h  ouvrés.<br>🍪 Réclamation: 7 jours.<br>🔔 Demande d’allocation:  21 jours ouvrés.<br> ❄️Après dépot de documents : 10 jours",
+        text: "",
         image: "assets/contenu-1.jpg" 
     },
     6: { 
         title: "Jour 6 : Choix du dispositif pour les créateurs", 
-        text: "Lorsque le DE démarre ou a démarré une ANS , il a le choix entre :<br> 🎅 Un Maintien des droits : un décalage des droits est effectué en tenant compte des rémunérations.<br>🦌 Une Aide à la Reprise ou la Création d’Entreprise (ARCE) : une aide de 60 % (45 % pour les FCT < 1er juillet 2023 ou OD A8/A10) du capital restant à la date de création, versée en 2 fois (avec un écart de 6 mois entre les versements).<br><br> Quel que soit le dispositif dans lequel le DE sera, ne pas oublier de tracer les contacts afin de suivre l’avancement du dossier.<br><br><br> En ASS : Un cumul intégral est possible pendant 3 mois et au-delà en l’absence de rémunération. En cas d’obtention de l’ARCE, le cumul est intégral jusqu’à 12 mois au-delà en l’absence de rémunération.",
+        text: "",
         image: "assets/contenu-1.jpg" 
     },
     7: { 
@@ -204,6 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
