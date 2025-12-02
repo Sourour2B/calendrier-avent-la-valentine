@@ -221,7 +221,7 @@ body {
 .footer-copyright {
     margin-top: 40px;      
     font-size: 0.85em;      
-    color: rgba(0, 0, 0, 0.6); /* blanc transparent discret */
+    color: #000000
     text-align: center;
     width: 100%;
     
@@ -240,6 +240,7 @@ body {
     font-size: 1.2em;
     vertical-align: middle;
 }
+
 
 
 
