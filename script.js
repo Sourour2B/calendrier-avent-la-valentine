@@ -27,13 +27,13 @@ const ADVENT_CONTENT = {
     
     4: { 
         title: "Jour 4 : Les Carences  ", 
-        text: " * Délai d'attente réglementaire : 7 jours (appliqué à tous, sauf si déjà appliqué dans les 12 derniers mois).<br>* Différé Indemnités Congés Payés : Si le DE touche une indemnité de congés payés à la fin de votre contrat, l'indemnisation est reportée (Max 30 jours).<br>* Différé "Supra-légal" : Si le DE touche une indemnité de rupture (licenciement, rupture conv.) supérieure au minimum légal, un différé supplémentaire s'applique (Max 150 jours, ou 75 jours si licenciement économique).
+        text: " 🦌 Délai d'attente réglementaire : 7 jours (appliqué à tous, sauf si déjà appliqué dans les 12 derniers mois).<br>🎅 Différé Indemnités Congés Payés : Si le DE touche une indemnité de congés payés à la fin de votre contrat, l'indemnisation est reportée (Max 30 jours).<br>❄️ Différé Supra-légal : Si le DE touche une indemnité de rupture (licenciement, rupture conv.) supérieure au minimum légal, un différé supplémentaire s'applique (Max 150 jours, ou 75 jours si licenciement économique).
  ",
         image: "assets/contenu-1.jpg" 
     },
     5: { 
         title: "Jour 5 : Délai de traitement ", 
-        text: "CVM : 48h à 72h  ouvrés (hors week-end).<br> Réclamation: 7 jours.<br> Demande d’allocation:  21 jours ouvrés.<br> Après dépot de documents : 10 jours
+        text: "🎁 CVM : 48h à 72h  ouvrés (hors week-end).<br>🍪 Réclamation: 7 jours.<br>🔔 Demande d’allocation:  21 jours ouvrés.<br> ❄️Après dépot de documents : 10 jours
  ",
         image: "assets/contenu-1.jpg" 
     },
@@ -213,6 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
