@@ -51,7 +51,6 @@ body {
 .day-3 { grid-area: 4 / 5 ; }    /* Ligne 2, Col 4 */
 .day-4 { grid-area: 2 / 2; }    /* Ligne 5, Col 6 */
 .day-5 { grid-area: 1 / 5; }    /* Ligne 1, Col 5 */
-/* ... Continuez à assigner aléatoirement les 24 classes .day-X à des emplacements dans la grille ... */
 .day-6 { grid-area: 3 / 5; }
 .day-7 { grid-area: 2 / 1 ; }
 .day-8 { grid-area: 3 / 4 ; }
@@ -100,8 +99,6 @@ body {
 /* Assignation des images des portes (à remplacer par vos images dans le dossier assets) */
 .day-1 { background-image: url('assets/case-1.jpg'); }
 .day-2 { background-image: url('assets/case-2.jpg'); }
-/* ... continuez jusqu'à .day-24 ... */
-
 .day-3 { background-image: url('assets/case-3.jpg'); }
 .day-4 { background-image: url('assets/case-4.jpg'); }
 .day-5 { background-image: url('assets/case-5.jpg'); }
@@ -240,6 +237,7 @@ body {
     font-size: 1.2em;
     vertical-align: middle;
 }
+
 
 
 
