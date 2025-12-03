@@ -79,7 +79,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1em;
+    font-size: 0,5em;
     font-weight: bold;
     color: white;
     cursor: default; /* Curseur par défaut pour les jours bloqués */
@@ -237,6 +237,7 @@ body {
     font-size: 1.2em;
     vertical-align: middle;
 }
+
 
 
 
