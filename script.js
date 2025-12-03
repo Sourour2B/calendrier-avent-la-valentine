@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
     days.forEach(day => {
         const dayNumber = parseInt(day.getAttribute('data-day'));
 
-        // Seuls les jours passés et le jour J peuvent être ouverts, et uniquement en Décembre
+     // Seuls les jours passés et le jour J peuvent être ouverts, et uniquement en Décembre
         if (isDecember && dayNumber <= currentDay) {
             day.classList.add('unlocked');
         } else {
@@ -210,6 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
