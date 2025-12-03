@@ -2,7 +2,7 @@
 // ATTENTION : Le script utilise l'heure locale de l'utilisateur.
 
 
-const DECEMBER= 11; // JavaScript compte les mois de 0 (Jan) à 11 (Dec)
+const DECEMBER= 10; // JavaScript compte les mois de 0 (Jan) à 11 (Dec)
 const CURRENT_YEAR = new Date().getFullYear(); // Année actuelle (ex: 2025)
 
 
@@ -205,6 +205,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
