@@ -160,6 +160,12 @@ document.addEventListener('DOMContentLoaded', () => {
              day.innerHTML = dayNumber;
         }
 
+// Modification TEMPORAIRE pour le TEST  Déverrouille toutes les cases (1 à 24)
+        if (dayNumber = 1 && dayNumber = 24) {  Déverrouille du jour 1 au 24
+            day.classList.add('unlocked');
+        } else {
+             day.innerHTML = dayNumber;
+        }
 
         // 2. Écouter le clic sur les cases débloquées
         day.addEventListener('click', () => {
@@ -204,6 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
