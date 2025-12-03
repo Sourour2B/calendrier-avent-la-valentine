@@ -152,13 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
     days.forEach(day => {
         const dayNumber = parseInt(day.getAttribute('data-day'));
 
-     // Seuls les jours passés et le jour J peuvent être ouverts, et uniquement en Décembre
-        if (isDecember && dayNumber <= currentDay) {
-            day.classList.add('unlocked');
-        } else {
-             // Astuce : afficher le numéro pour les jours bloqués (si aucune image de porte n'est mise)
-             day.innerHTML = dayNumber;
-        }
+
 
 // Modification TEMPORAIRE pour le TEST  Déverrouille toutes les cases (1 à 24)
         if (dayNumber = 1 && dayNumber = 24) {  Déverrouille du jour 1 au 24
@@ -210,6 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
