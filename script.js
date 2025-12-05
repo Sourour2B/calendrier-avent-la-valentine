@@ -41,13 +41,13 @@ const ADVENT_CONTENT = {
         image: "assets/contenu-1.jpg" 
     },
     7: { 
-        title: "Jour 7 : ACTU ", 
-        text: "C'est parti ! ",
+        title: "Jour 7 : Quand le dossier ASS est mis à disposition du DE ? ", 
+        text: "Le dossier  ASS est créée automatiquement dans l’espace personnel du DE.<br>Il est disponible 30 jours avant la fin des droits et 60 jours après le dernier jour indemnisé en ASS.<br>Le dossier ASS manuel est créé dans le cas où le DE se manifeste tardivement( au-delà des 60 jours),le demandeur doit signer la demande papier. ",
         image: "assets/contenu-1.jpg" 
     },
     8: { 
-        title: "Jour 8 : ACTU ", 
-        text: "C'est parti ! ",
+        title: "Jour 8 : L'attestation employeur des particulier employeurs  ", 
+        text: "🎅 Qui est concerné par l’attestation employeur pour les particuliers employeurs ?<br>Tous les particuliers employeurs qui se sépare de son salarié lors d’une fin de contrat de travail.<br><br>❄️ Les parents employeurs (garde d’enfants) adhérents à Pajemploi, ils doivent passer obligatoirement par le site pajemploi.urssaf.fr et réaliser les démarches de fin de contrat directement depuis le site comme estimer le coût d’une fin de contrat et générer les documents obligatoires à remettre au salarié.<br><br>🦌Pour un particulier employeur décédé, les personnes habilitées à réaliser les démarches sont :<br>• Le conjoint,<br>• Les parents,<br>• Les enfants, petits-enfants,<br>• Le notaire,<br><br>• La justification de la parenté, se fait par :<br>La présentation de la CNI de la personne décédée et de celle effectuant les démarches,<br>• Le livret de famille ou l’extrait de l’acte de naissance attestant de la filiation avec la personne décédée ou pour le conjoint non marié, le certificat de concubinage ou pacs.",
         image: "assets/contenu-1.jpg" 
     },
     9: { 
@@ -206,6 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
