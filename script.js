@@ -156,12 +156,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 // Seuls les jours passés et le jour J peuvent être ouverts, et uniquement en Décembre
-if (dayNumber = 1 && dayNumber = 24) {  Déverrouille du jour 1 au 24
-            day.classList.add('unlocked');
-        } else {
-             day.innerHTML = dayNumber;
-        }
- 
+        if (isDecember && dayNumber <= currentDay) {
+            day.classList.add('unlocked');
+        } else {
+             // Astuce : afficher le numéro pour les jours bloqués (si aucune image de porte n'est mise)
+             day.innerHTML = dayNumber;
+        }
+
 
         // 2. Écouter le clic sur les cases débloquées
         day.addEventListener('click', () => {
@@ -206,6 +207,7 @@ if (dayNumber = 1 && dayNumber = 24) {  Déverrouille du jour 1 au 24
     });
 
 });
+
 
 
 
