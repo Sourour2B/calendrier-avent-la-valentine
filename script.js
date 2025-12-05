@@ -134,13 +134,12 @@ const ADVENT_CONTENT = {
 // --- FIN CONFIGURATION ---
 
 
-// --- MODE TEST ACTIF : Simule le 24 décembre pour déverrouiller toutes les cases ---
- const today = new Date();
+document.addEventListener('DOMContentLoaded', () => {
+    const today = new Date();
     const currentDay = today.getDate();
     const currentMonth = today.getMonth();
     const currentYear = today.getFullYear();
     
-
     // Déterminer si nous sommes en Décembre de l'année configurée
     const isDecember = (currentMonth === DECEMBER&& currentYear === CURRENT_YEAR);
 
@@ -156,13 +155,12 @@ const ADVENT_CONTENT = {
 
 
 // Seuls les jours passés et le jour J peuvent être ouverts, et uniquement en Décembre
-      if (isDecember && dayNumber <= currentDay) {
+        if (isDecember && dayNumber <= currentDay) {
             day.classList.add('unlocked');
         } else {
              // Astuce : afficher le numéro pour les jours bloqués (si aucune image de porte n'est mise)
              day.innerHTML = dayNumber;
         }
-
 
         // 2. Écouter le clic sur les cases débloquées
         day.addEventListener('click', () => {
@@ -207,56 +205,3 @@ const ADVENT_CONTENT = {
     });
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
