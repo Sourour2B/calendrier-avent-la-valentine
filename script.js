@@ -156,7 +156,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 // Seuls les jours passés et le jour J peuvent être ouverts, et uniquement en Décembre
-   
+      if (isDecember && dayNumber <= currentDay) {
+            day.classList.add('unlocked');
+        } else {
+             // Astuce : afficher le numéro pour les jours bloqués (si aucune image de porte n'est mise)
+             day.innerHTML = dayNumber;
+        }
 
 
         // 2. Écouter le clic sur les cases débloquées
@@ -202,6 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
