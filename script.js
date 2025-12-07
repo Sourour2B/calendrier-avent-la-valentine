@@ -42,7 +42,7 @@ const ADVENT_CONTENT = {
     },
     7: { 
         title: "Jour 7 : Quand le dossier ASS est mis à disposition du DE ? ", 
-        text: "Le dossier  ASS est créée automatiquement dans l’espace personnel du DE.<br>Il est disponible 30 jours avant la fin des droits et 60 jours après le dernier jour indemnisé en ASS.<br><br>Le dossier ASS manuel est créé dans le cas où le DE se manifeste tardivement( au-delà des 60 jours),le demandeur doit signer la demande papier. ",
+        text: "Le dossier  ASS est créée automatiquement dans l’espace personnel du DE.<br>Il est disponible 30 jours avant la fin des droits et 60 jours après le dernier jour indemnisé.<br><br>Le dossier ASS manuel est créé dans le cas où le DE se manifeste tardivement( au-delà des 60 jours),le demandeur doit signer la demande papier. ",
         image: "assets/contenu-1.jpg" 
     },
     8: { 
@@ -206,6 +206,7 @@ const today = new Date();
     });
 
 });
+
 
 
 
