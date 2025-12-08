@@ -57,7 +57,7 @@ const ADVENT_CONTENT = {
     },
     10: { 
         title: "Jour 10 : Qu’est-ce que le complément d’allocation en cas de reprise d’activité non salariée ? ", 
-         text: "Le complément d'allocation dans ce cas est calculé de la façon suivante : <br><br> 🎁 Montant de l’allocation mensuelle – 70% des rémunérations déclarées par le demandeur d’emploi.<br><br>Le cumul du revenu issu de l’activité reprise avec l’allocation ne pourra pas être supérieur au salaire de référence qui a servi au calcul du droit à l'allocation chômage.<br>A noter que si le droit à l’ARE est ouvert à la suite d’une perte d’emploi à partir du 1er avril 2025 : ce complément est possible dans la limite de 60% des droits restants au démarrage effectif de l’activité. Quand cette limite est atteinte, sous certaines conditions, le demandeur d’emploi peut solliciter la poursuite du versement jusqu’à épuisement de son droit ARE.",
+         text: "Le complément d'allocation dans ce cas est calculé de la façon suivante : <br><br> 🎁 Montant de l’allocation mensuelle – 70% des rémunérations déclarées par le demandeur d’emploi.<br><br>Le cumul du revenu issu de l’activité reprise avec l’allocation ne pourra pas être supérieur au salaire de référence qui a servi au calcul du droit à l'allocation chômage.<br><br><br>A noter que si le droit à l’ARE est ouvert à la suite d’une perte d’emploi à partir du 1er avril 2025 : ce complément est possible dans la limite de 60% des droits restants au démarrage effectif de l’activité. Quand cette limite est atteinte, sous certaines conditions, le demandeur d’emploi peut solliciter la poursuite du versement jusqu’à épuisement de son droit ARE.",
         image: "assets/contenu-1.jpg" 
     },
     11: { 
@@ -209,6 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
