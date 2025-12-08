@@ -52,7 +52,7 @@ const ADVENT_CONTENT = {
     },
     9: { 
         title: "Jour 9 : Comment bénéficier du complément d’allocation en cas de reprise d’activité salariée ? ", 
-        text: "Le DE doit maintenir son inscription comme demandeur d’emploi et déclarer son ou ses emplois, chaque mois dans le cadre de son actualisation, entre le 28 (le 26 pour le mois de février) et le 15 du mois suivant.<br><br>Ce qu’il doit déclarer lors de l’actualisation mensuelle ?<br><br><br>🦌 Le nombre d’heures travaillées dans le mois : quelle que soit la durée travaillée dans le mois, il doit indiquer les heures travaillées dans le mois, emploi par emploi (sans les minutes)<br><br>🦌 Le montant de ses salaires bruts réels ou estimés pour chaque emploi, sans les centimes :<br>&nbsp;&nbsp;&nbsp;&nbsp;❄️ Il doit indiquer le salaire brut, mais aussi les indemnités de congés payés, les primes éventuelles et les avantages en nature (ex : téléphone, voiture de fonction) qui sont soumis à contribution d’assurance chômage de la part de l'employeur<br>❄️ Il ne doit pas indiquer les indemnités de fin de contrat (attribuées en fin de CDD ou en fin de mission par exemple)!<br><br><br>🦌 Le calcul du montant mensuel de l’allocation sera le suivant :<br>70 % du salaire brut mensuel sont déduits du montant de votre ARE pour un mois<br>A noter : le cumul de l'allocations et du  salaire ne peut pas dépasser la moyenne des  anciens salaires qui ont servi au calcul de l'ARE.",
+        text: "Le DE doit maintenir son inscription comme demandeur d’emploi et déclarer son ou ses emplois, chaque mois dans le cadre de son actualisation, entre le 28 (le 26 pour le mois de février) et le 15 du mois suivant.<br><br>Ce qu’il doit déclarer lors de l’actualisation mensuelle ?<br><br><br>🦌 Le nombre d’heures travaillées dans le mois : quelle que soit la durée travaillée dans le mois, il doit indiquer les heures travaillées dans le mois, emploi par emploi (sans les minutes)<br><br>🦌 Le montant de ses salaires bruts réels ou estimés pour chaque emploi, sans les centimes :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Il doit indiquer le salaire brut, mais aussi les indemnités de congés payés, les primes éventuelles et les avantages en nature (ex : téléphone, voiture de fonction) qui sont soumis à contribution d’assurance chômage de la part de l'employeur<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Il ne doit pas indiquer les indemnités de fin de contrat (attribuées en fin de CDD ou en fin de mission par exemple)!<br><br><br>🦌 Le calcul du montant mensuel de l’allocation sera le suivant :<br>70 % du salaire brut mensuel sont déduits du montant de votre ARE pour un mois<br>A noter : le cumul de l'allocations et du  salaire ne peut pas dépasser la moyenne des  anciens salaires qui ont servi au calcul de l'ARE.",
         image: "assets/contenu-1.jpg" 
     },
     10: { 
@@ -209,6 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
