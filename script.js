@@ -62,7 +62,7 @@ const ADVENT_CONTENT = {
     },
     11: { 
         title: "Jour 11 : Le DE rentre en France après avoir travaillé dans un État européen ", 
-        text: "🔔 Le De doit demander le document portable U1 à l’institution compétente de votre ancien État d’emploi. Ce formulaire récapitule les périodes d'assurance ou d'emploi accomplies sur le territoire d'un État membre de l’Union européenne, de l’Espace économique européen ou de la Suisse. Il permet la prise en compte de ces périodes afin de faire valoir les droits au titre du chômage.<br>❄️ Il doit s’inscrire comme demandeur d’emploi lorsqu’il rentre en France après avoir perdu son emploi occupé dans l’autre État membre.<br>🦌 La durée de ses droits : France Travail prend en compte les périodes de travail accomplies à l'étranger indiquées sur ce formulaire, à condition que le DE ait travaillé en France après cette activité étrangère.<br>🍪 Le calcul de l’allocation : Les règlements européens prévoient une particularité concernant les salaires retenus pour le calcul de l'allocation. Le montant de l’allocation versée par France Travail est établi sur la base des seules rémunérations perçues en France, après avoir occupé un emploi au sein d’un État membre. Les rémunérations perçues au titre d’une activité exercée dans l’autre État européen ne sont donc pas prises en compte pour le calcul du montant de l’allocation.",
+        text: "🔔 Le De doit demander le document portable U1 à l’institution compétente de votre ancien État d’emploi. Ce formulaire récapitule les périodes d'assurance ou d'emploi accomplies sur le territoire d'un État membre de l’Union européenne, de l’Espace économique européen ou de la Suisse. Il permet la prise en compte de ces périodes afin de faire valoir les droits au titre du chômage.<br><br>❄️ Il doit s’inscrire comme demandeur d’emploi lorsqu’il rentre en France après avoir perdu son emploi occupé dans l’autre État membre.<br><br>🦌 La durée de ses droits : France Travail prend en compte les périodes de travail accomplies à l'étranger indiquées sur ce formulaire, à condition que le DE ait travaillé en France après cette activité étrangère.<br><br>🍪 Le calcul de l’allocation : Les règlements européens prévoient une particularité concernant les salaires retenus pour le calcul de l'allocation. Le montant de l’allocation versée par France Travail est établi sur la base des seules rémunérations perçues en France, après avoir occupé un emploi au sein d’un État membre. Les rémunérations perçues au titre d’une activité exercée dans l’autre État européen ne sont donc pas prises en compte pour le calcul du montant de l’allocation.",
         image: "assets/contenu-1.jpg" 
     },
     12: { 
@@ -209,6 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
