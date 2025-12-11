@@ -133,13 +133,13 @@ const ADVENT_CONTENT = {
 };
 // --- FIN CONFIGURATION ---
 
-document.addEventListener('DOMContentLoaded', () => {
 
-const today = new Date();
+
+document.addEventListener('DOMContentLoaded', () => {
+    const today = new Date();
     const currentDay = today.getDate();
     const currentMonth = today.getMonth();
     const currentYear = today.getFullYear();
-    
    
     
     // Déterminer si nous sommes en Décembre de l'année configurée
@@ -206,6 +206,7 @@ const today = new Date();
     });
 
 });
+
 
 
 
