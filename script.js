@@ -143,7 +143,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentMonth = today.getMonth(); // Sera 11 (Décembre)
     const currentYear = today.getFullYear(); // Sera l'année configurée
     // --- MODE TEST TERMINÉ ---
-    const currentYear = today.getFullYear();
     
         
     // Déterminer si nous sommes en Décembre de l'année configurée
@@ -208,6 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
