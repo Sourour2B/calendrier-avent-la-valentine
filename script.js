@@ -144,10 +144,14 @@ const today = new Date();
     // Déterminer si nous sommes en Décembre de l'année configurée
     const isDecember = (currentMonth === DECEMBER&& currentYear === CURRENT_YEAR);
 
-    const days = document.querySelectorAll('.day');
-    const modalOverlay = document.getElementById('modal-overlay');
-    const modalBody = document.getElementById('modal-body');
-    const closeModal = document.getElementById('close-modal');
+   // --- MODE TEST ACTIF : Simule le 24 décembre pour déverrouiller toutes les cases ---
+    const simulatedDate = new Date(CURRENT_YEAR, DECEMBER, 24); 
+    
+    const today = simulatedDate; // On utilise la date simulée
+    const currentDay = today.getDate(); // Sera 24
+    const currentMonth = today.getMonth(); // Sera 11 (Décembre)
+    const currentYear = today.getFullYear(); // Sera l'année configurée
+    // --- MODE TEST TERMINÉ ---
 
     // 1. Gérer le déblocage des cases au chargement
     days.forEach(day => {
@@ -206,6 +210,7 @@ const today = new Date();
     });
 
 });
+
 
 
 
