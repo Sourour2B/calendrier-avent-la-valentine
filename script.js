@@ -82,7 +82,7 @@ const ADVENT_CONTENT = {
     },
     15: { 
         title: "Jour 15 : Pension d’invalidité règle de cumul ", 
-         text: "🎁la pension d’invalidité 1 est entièrement cumulable avec l’ARE. <br>🎁les pensions d’invalidités de catégorie 2 ou 3 sont cumulables sous certaines conditions;<br><br>A défaut, l’allocation versée est égale à la différence entre le montant de l’ARE et celui de la pension d’invalidité. Le montant de l’allocation journalière, avant déduction de la pension d’invalidité, ne peut être inférieur à celui de l’allocation journalière minimale (AJ), et ne peut excéder 75 % du salaire journalier de référence, sous réserve, toutefois, des dispositions fixant le montant de l’allocation en cas d’activité à temps partiel.<br>Le montant de l’allocation chômage est cumulable avec le montant de la pension d’invalidité (de 2ème ou 3ème catégorie, ou le montant de la pension d’invalidité acquise à l’étranger) dès lors que les revenus perçus au titre de l’exécution effective de l’activité professionnelle prise en compte pour l’OD ou l'indemnité d'activité partielle perçue au cours de cette activité professionnelle ont été cumulés avec la pension.",
+         text: "🎁la pension d’invalidité 1 est entièrement cumulable avec l’ARE. <br>🎁les pensions d’invalidités de catégorie 2 ou 3 sont cumulables sous certaines conditions;<br><br>A défaut, l’allocation versée est égale à la différence entre le montant de l’ARE et celui de la pension d’invalidité. Le montant de l’allocation journalière, avant déduction de la pension d’invalidité, ne peut être inférieur à celui de l’allocation journalière minimale (AJ), et ne peut excéder 75 % du salaire journalier de référence, sous réserve, toutefois, des dispositions fixant le montant de l’allocation en cas d’activité à temps partiel.<br><br>Le montant de l’allocation chômage est cumulable avec le montant de la pension d’invalidité (de 2ème ou 3ème catégorie, ou le montant de la pension d’invalidité acquise à l’étranger) dès lors que les revenus perçus au titre de l’exécution effective de l’activité professionnelle prise en compte pour l’OD ou l'indemnité d'activité partielle perçue au cours de cette activité professionnelle ont été cumulés avec la pension.",
         image: "assets/contenu-1.jpg" 
     },
     16: { 
@@ -209,6 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
