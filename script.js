@@ -92,7 +92,7 @@ const ADVENT_CONTENT = {
     },
     17: { 
         title: "Jour 17 : Rappel Réglementaire de l’aide aux congés non payés", 
-        text: "'Le salarié qui a bénéficié de l'allocation d'assurance chômage ou de l'allocation de solidarité spécifique pendant la période de référence des congés payés ou pendant la période qui lui fait suite immédiatement, et dont l'entreprise ferme pour congés payés, peut obtenir une aide pour congés non payés.<br><br>Le montant de l'aide est déterminé en tenant compte du nombre de jours de fermeture de l'entreprise et des droits à congés payés éventuellement acquis au titre de l'emploi en cours'.<br><br>Cette aide ne concerne que les Salariés qui ne sont pas restés inscrits sur la liste des demandeurs d’Emploi.<br><br>L’aide aux congés non payés est aujourd’hui attribuée uniquement sur sollicitation du DE.",
+        text: "Le salarié qui a bénéficié de l'allocation d'assurance chômage ou de l'allocation de solidarité spécifique pendant la période de référence des congés payés ou pendant la période qui lui fait suite immédiatement, et dont l'entreprise ferme pour congés payés, peut obtenir une aide pour congés non payés.<br><br>Le montant de l'aide est déterminé en tenant compte du nombre de jours de fermeture de l'entreprise et des droits à congés payés éventuellement acquis au titre de l'emploi en cours.<br><br>Cette aide ne concerne que les Salariés qui ne sont pas restés inscrits sur la liste des demandeurs d’Emploi.<br><br>L’aide aux congés non payés est aujourd’hui attribuée uniquement sur sollicitation du DE.",
         image: "assets/contenu-1.jpg" 
     },
     18: { 
@@ -209,6 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
