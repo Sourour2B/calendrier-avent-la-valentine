@@ -87,7 +87,7 @@ const ADVENT_CONTENT = {
     },
     16: { 
         title: "Jour 16 : Modalité d’attribution de l’aide fin de droit ", 
-         text: "Pour les rejets ASS autres que ressources prononcées à compter du 1 er avril 2025, l’aide est versée automatiquement.<br> Pour les rejets ASS autres que ressources antérieures au 1 er avril 2025, une demande doit être déposée : <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🍪 sur FT.fr dans la rubrique « mes aides », (toujours accessible pendant 2 ans à compter du rejet).<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🍪par mail ou courrier, ce traitement nécessite alors une intervention d’un conseiller de bout en bout. <br><br>Le montant de l'aide est égal à 27 fois la partie fixe de l'allocation journalière de l’assurance chômage soit 353,97 euros (27 X 13,11) depuis le 1 er juillet 2024.<br><br>Une fois l’aide versée, il est impossible de la remettre en cause.",
+         text: "Pour les rejets ASS autres que ressources prononcées à compter du 1er avril 2025, l’aide est versée automatiquement.<br> Pour les rejets ASS autres que ressources antérieures au 1er avril 2025, une demande doit être déposée : <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🍪 sur FT.fr dans la rubrique « mes aides », (toujours accessible pendant 2 ans à compter du rejet).<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🍪par mail ou courrier, ce traitement nécessite alors une intervention d’un conseiller de bout en bout. <br><br>Le montant de l'aide est égal à 27 fois la partie fixe de l'allocation journalière de l’assurance chômage soit 353,97 euros (27 X 13,11) depuis le 1 er juillet 2024.<br><br>Une fois l’aide versée, il est impossible de la remettre en cause.",
         image: "assets/contenu-1.jpg" 
     },
     17: { 
@@ -209,6 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
