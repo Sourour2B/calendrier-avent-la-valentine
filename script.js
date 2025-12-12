@@ -71,8 +71,8 @@ const ADVENT_CONTENT = {
         image: "assets/contenu-1.jpg" 
     },
     13: { 
-        title: "Jour 13 : ACTU ", 
-         text: "C'est parti ! ",
+        title: "Jour 13 : Maintien des droits jusqu’à la retraite ", 
+         text: "Pour le Maintien des droits jusqu’à la retraite, les seuls justificatifs recevables par France travail pour justifier de la condition des 100 trimestres sont les documents suivants:<br>❄️ le courrier délivré par la caisse de retraite intitulé 'chômage indemnisé : régularisation de carrière'<br>❄️le courrier de la Mutualité Sociale Agricole (MSA) dont I ‘objet est 'Rejet Pôle Emploi'  ou  'Chômage indemnisé : Régul de carrière'<br><br>Le relevé de carrière ne doit pas être utilisé pour renseigner la rubrique  'Nombre de trimestres France Travail ' afin de valider ou pas la condition des 100 trimestres . I| faut impérativement attendre que le DE nous fournisse un des documents recevables.<br><br>NB: Dans le cas où la fin du droit ARE intervient entre 62 ans et l'âge minimum légal de départ à la retraite (62 ans et 6 mois pour une personne née en 1962) et qu'un maintien ARE est possible, en |'absence du document 'chômage indemnisé : régularisation de carrière', il convient de transmettre une demande via c'zam au pôle indemnisation (afin d'éviter une rupture de paiement",
         image: "assets/contenu-1.jpg" 
     },
     14: { 
@@ -206,6 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
