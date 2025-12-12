@@ -96,8 +96,8 @@ const ADVENT_CONTENT = {
         image: "assets/contenu-1.jpg" 
     },
     18: { 
-        title: "Jour 18 : ACTU ", 
-        text: "C'est parti ! ",
+        title: "Jour 18 : Le DE n’est pas payer, quels sont les éléments du dossier vérifier ?", 
+        text: "Les raisons pour lesquelles un demandeur d’emploi ne reçoit pas un versement sont multiples.<br>Il peut s’agir d’une personne qui n’a pas été payée pour un mois précédent ou bien qui n’a été payée que partiellement et ne comprend pas ce qui s’est passé.<br><br>Il convient alors de lui poser quelques questions et de vérifier s’il n’existe pas une alerte sur son dossier, pour orienter les recherches.<br>🦌 Le DE est-il inscrit ?<br>🎁 Est-il actualisé ?<br>🔔 Son RIB est-il enregistré ?<br>🍪 A-t-il déclaré un événement ?<br>❄️ A-t-il encore des droits ?<br>🎅 A-t-il atteint l’âge de la retraite ?<br>🦌 Y a-t-il une alerte sur son dossier ?<br><br>À noter : une consultation systématique du « Bloc-notes » en bas du pavé MAP « Situation financière » pourra aussi donner des indications sur l’éventuelle nécessité d’une action de la part du DE (fournir un justificatif, signer un document, etc.)<br><br>Bon à savoir : tout écrit dans un dossier (bloc-notes, conclusions d’entretien, etc.) doit être rédigé avec rigueur, objectivité et sans jugement de valeur. Par ailleurs, l’usager est en droit de demander à consulter toutes les informations consignées le concernant.",
         image: "assets/contenu-1.jpg" 
     },
     19: { 
@@ -209,6 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
