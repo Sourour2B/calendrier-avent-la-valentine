@@ -102,7 +102,7 @@ const ADVENT_CONTENT = {
     },
     19: { 
         title: "Jour 19 : Attestation employeur – Absence d’AE", 
-         text: "🎅En cas d’absence de la dernière attestation employer ou de l’avant dernière non suivie de 65 jours travaillés, il convient de saisir l'IP France Travail.<br><br>Le conseiller :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• récupère les éléments nécessaires à la détermination d’une rupture effective du contrat de travail : éléments de rémunération (BS couvrant la PRC), durée d’emploi (certificat de travail ou contrat de travail) et rupture du contrat (la notification de licenciement ou démission).<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• saisit le délégué dans ce cas de refus, l'IP FT, car l’emploi  n’est pas justifié par une attestation employeur.<br><br>🎅En cas d’absence de la dernière attestation employeur ou de l’avant dernière non suivie de 65 jours travaillés, il convient de saisir l'IP France Travail.<br><br>Le conseiller:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• récupère les éléments nécessaires à la détermination d’une rupture effective du contrat de travail : éléments de rémunération (BS couvrant la PRC), durée d’emploi (certificat de travail ou contrat de travail) et rupture du contrat (la notification de licenciement ou démission).<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• saisit le délégué en cas de refus, l'IP FT, car l'emploi  n’est pas justifié par une attestation employeur.",
+         text: "🎅En cas d’absence de la dernière attestation employer ou de l’avant dernière non suivie de 65 jours travaillés, il convient de saisir l'IP France Travail.<br><br>Le conseiller :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• récupère les éléments nécessaires à la détermination d’une rupture effective du contrat de travail : éléments de rémunération (BS couvrant la PRC), durée d’emploi (certificat de travail ou contrat de travail) et rupture du contrat (la notification de licenciement ou démission).<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• saisit le délégué dans ce cas de refus, l'IP FT, car l’emploi  n’est pas justifié par une attestation employeur.<br><br><br><br>🎅En cas d’absence de la dernière attestation employeur ou de l’avant dernière non suivie de 65 jours travaillés, il convient de saisir l'IP France Travail.<br><br>Le conseiller:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• récupère les éléments nécessaires à la détermination d’une rupture effective du contrat de travail : éléments de rémunération (BS couvrant la PRC), durée d’emploi (certificat de travail ou contrat de travail) et rupture du contrat (la notification de licenciement ou démission).<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• saisit le délégué en cas de refus, l'IP FT, car l'emploi  n’est pas justifié par une attestation employeur.",
         image: "assets/contenu-1.jpg" 
     },
     20: { 
@@ -210,6 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
