@@ -136,10 +136,14 @@ const ADVENT_CONTENT = {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-   const today = new Date();
-    const currentDay = today.getDate();
-    const currentMonth = today.getMonth();
-    const currentYear = today.getFullYear();
+   // --- MODE TEST ACTIF : Simule le 24 décembre pour déverrouiller toutes les cases ---
+    const simulatedDate = new Date(CURRENT_YEAR, DECEMBER, 24); 
+    
+    const today = simulatedDate; // On utilise la date simulée
+    const currentDay = today.getDate(); // Sera 24
+    const currentMonth = today.getMonth(); // Sera 11 (Décembre)
+    const currentYear = today.getFullYear(); // Sera l'année configurée
+    // --- MODE TEST TERMINÉ ---
     
       
     // Déterminer si nous sommes en Décembre de l'année configurée
@@ -206,6 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
