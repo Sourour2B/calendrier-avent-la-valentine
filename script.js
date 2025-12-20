@@ -106,8 +106,9 @@ const ADVENT_CONTENT = {
         image: "assets/contenu-1.jpg" 
     },
     20: { 
-        title: "Jour 20 : ACTU ", 
-         text: "C'est parti ! ",
+        title: "Jour 20 : Le Délai de Forclusion : Article 791er du RG ", 
+         text: "Le bénéfice de l’ARE est conditionné à la justification d’une fin de contrat de travail (FCT) dans un délai de 12 mois, appelé délai de forclusion, dont le terme est la veille de l’inscription.<br>Le délai de forclusion de 12 mois peut être allongé dans certaines situations et notamment des périodes d’incarcération, maladie,etc…<br>Cela ne concerne que les demandes suite à une inscription. Le délai de forclusion n’est pas vérifié dans le cadre de tous les autres examens ARE prévus par la réglementation : demandes express, droit d’option, rechargement …
+ ",
         image: "assets/contenu-1.jpg" 
     },
     21: { 
@@ -206,6 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
