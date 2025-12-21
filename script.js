@@ -112,7 +112,7 @@ const ADVENT_CONTENT = {
         image: "assets/contenu-1.jpg" 
     },
     21: { 
-        title: "Jour 21 : Déterminer la période de référence affiliation - PRA", 
+        title: "Jour 21 : ", 
         text: "",
         image: "assets/contenu-1.jpg" 
     },
@@ -207,6 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
