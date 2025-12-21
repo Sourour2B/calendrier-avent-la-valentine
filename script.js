@@ -117,7 +117,7 @@ const ADVENT_CONTENT = {
         image: "assets/contenu-1.jpg" 
     },
     22: { 
-        title: "Jour 22 : Le droit d’option ", 
+        title: "Jour 22 :  ", 
          text: "",
         image: "assets/contenu-1.jpg" 
     },
@@ -207,6 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
