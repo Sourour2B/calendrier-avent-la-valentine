@@ -118,7 +118,7 @@ const ADVENT_CONTENT = {
     },
     22: { 
         title: "Jour 22 : Le droit d’option ", 
-         text: "Le droit d’option est ouvert à tous les DE ayant un reliquat de droit ARE non déchu et qui remplissent à nouveau les conditions d’Ouverture de Droit au titre du Régime Général (RG) ou d’une de ses annexes : affiliation, chômage involontaire, etc.<br>Le droit d'option est possible dans les 3 situations suivantes:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• le reliquat de droit ARE a été ouvert au titre d’une fin de contrat d’apprentissage ou de professionnalisation<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• le montant brut du droit ARE en cours est inférieur ou égal à 20 €<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• le capital du nouveau droit ARE auquel le DE peut prétendre est supérieur d’au moins 30 % au capital du reliquat de droits (pour les FCT à compter du 01/11/2019)",
+         text: "Le droit d’option est ouvert à tous les DE ayant un reliquat de droit ARE non déchu et qui remplissent à nouveau les conditions d’Ouverture de Droit au titre du Régime Général (RG) ou d’une de ses annexes : affiliation, chômage involontaire, etc.<br><br><br>Le droit d'option est possible dans les 3 situations suivantes:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• le reliquat de droit ARE a été ouvert au titre d’une fin de contrat d’apprentissage ou de professionnalisation<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• le montant brut du droit ARE en cours est inférieur ou égal à 20 €<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• le capital du nouveau droit ARE auquel le DE peut prétendre est supérieur d’au moins 30 % au capital du reliquat de droits (pour les FCT à compter du 01/11/2019)",
         image: "assets/contenu-1.jpg" 
     },
     23: { 
@@ -137,14 +137,12 @@ const ADVENT_CONTENT = {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  // --- MODE TEST ACTIF : Simule le 24 décembre pour déverrouiller toutes les cases ---
-    const simulatedDate = new Date(CURRENT_YEAR, DECEMBER, 24); 
+  const today = new Date();
+    const currentDay = today.getDate();
+    const currentMonth = today.getMonth();
+    const currentYear = today.getFullYear();
     
-    const today = simulatedDate; // On utilise la date simulée
-    const currentDay = today.getDate(); // Sera 24
-    const currentMonth = today.getMonth(); // Sera 11 (Décembre)
-    const currentYear = today.getFullYear(); // Sera l'année configurée
-    // --- MODE TEST TERMINÉ ---
+
     
          
     // Déterminer si nous sommes en Décembre de l'année configurée
@@ -211,6 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
