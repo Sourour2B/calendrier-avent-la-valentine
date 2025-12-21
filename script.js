@@ -100,6 +100,7 @@ const ADVENT_CONTENT = {
         text: "Les raisons pour lesquelles un demandeur d’emploi ne reçoit pas un versement sont multiples.<br>Il peut s’agir d’une personne qui n’a pas été payée pour un mois précédent ou bien qui n’a été payée que partiellement et ne comprend pas ce qui s’est passé.<br><br>Il convient alors de lui poser quelques questions et de vérifier s’il n’existe pas une alerte sur son dossier, pour orienter les recherches.<br>🦌 Le DE est-il inscrit ?<br>🎁 Est-il actualisé ?<br>🔔 Son RIB est-il enregistré ?<br>🍪 A-t-il déclaré un événement ?<br>❄️ A-t-il encore des droits ?<br>🎅 A-t-il atteint l’âge de la retraite ?<br>🦌 Y a-t-il une alerte sur son dossier ?<br><br>À noter : une consultation systématique du « Bloc-notes » en bas du pavé MAP « Situation financière » pourra aussi donner des indications sur l’éventuelle nécessité d’une action de la part du DE (fournir un justificatif, signer un document, etc.)<br><br>Bon à savoir : tout écrit dans un dossier (bloc-notes, conclusions d’entretien, etc.) doit être rédigé avec rigueur, objectivité et sans jugement de valeur. Par ailleurs, l’usager est en droit de demander à consulter toutes les informations consignées le concernant.",
         image: "assets/contenu-1.jpg" 
     },
+        text: "La période de référence affiliation est la période durant laquelle France Travail recherche : 
     19: { 
         title: "Jour 19 : Attestation employeur – Absence d’AE", 
          text: "🎅En cas d’absence de la dernière attestation employer ou de l’avant dernière non suivie de 65 jours travaillés, il convient de saisir l'IP France Travail.<br><br>Le conseiller :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• récupère les éléments nécessaires à la détermination d’une rupture effective du contrat de travail : éléments de rémunération (BS couvrant la PRC), durée d’emploi (certificat de travail ou contrat de travail) et rupture du contrat (la notification de licenciement ou démission).<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• saisit le délégué dans ce cas de refus, l'IP FT, car l’emploi  n’est pas justifié par une attestation employeur.<br><br><br><br>🎅En cas d’absence de la dernière attestation employeur ou de l’avant dernière non suivie de 65 jours travaillés, il convient de saisir l'IP France Travail.<br><br>Le conseiller:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• récupère les éléments nécessaires à la détermination d’une rupture effective du contrat de travail : éléments de rémunération (BS couvrant la PRC), durée d’emploi (certificat de travail ou contrat de travail) et rupture du contrat (la notification de licenciement ou démission).<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• saisit le délégué en cas de refus, l'IP FT, car l'emploi  n’est pas justifié par une attestation employeur.",
@@ -111,8 +112,8 @@ const ADVENT_CONTENT = {
         image: "assets/contenu-1.jpg" 
     },
     21: { 
-        title: "Jour 21 : ACTU ", 
-        text: "C'est parti ! ",
+        title: "Jour 21 : Déterminer la (PRA) ", 
+        text: "La période de référence affiliation est la période durant laquelle France Travail recherche : <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ la condition d’affiliation minimale de droit commun 130 jours travaillés ou 910 h ;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ à défaut, pour les FCT à compter du 01/04/25 sauf engagement de procédure de licenciement avant cette date, une condition d’affiliation dérogatoire peut-être recherchée, exclusivement en contrats saisonniers de 108 JT ou 758 h.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ la période de référence calcul (PRC) nécessaire pour déterminer le SJR. Pour l’affiliation saisonnière, on totalisera l’ensemble des FCT dans la PRC<br><br><br>En fonction de l’âge du DE, elle est d’une durée de :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 24 mois pour les demandeurs d’emploi de moins de 55 ans<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 36 mois pour les demandeurs d’emploi de 55 ans et plus.<br><br><br>Pour les FGD jusqu’au 31/03/25 : <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 24 mois pour les demandeurs d’emploi de moins de 53 ans <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 36 mois pour les demandeurs d’emploi de 53 ans et plus.",
         image: "assets/contenu-1.jpg" 
     },
     22: { 
@@ -206,6 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
