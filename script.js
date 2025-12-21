@@ -113,7 +113,7 @@ const ADVENT_CONTENT = {
     },
     21: { 
         title: "Jour 21 : Déterminer la période de référence affiliation (PRA) ", 
-        text: "La période de référence affiliation est la période durant laquelle France Travail recherche:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ la condition d’affiliation minimale de droit commun 130 jours travaillés ou 910 h<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ à défaut, pour les FCT à compter du 01/04/25 sauf engagement de procédure de licenciement avant cette date, une condition d’affiliation dérogatoire peut-être recherchée, exclusivement en contrats saisonniers de 108 JT ou 758 h.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ la période de référence calcul (PRC) nécessaire pour déterminer le SJR. Pour l’affiliation saisonnière, on totalisera l’ensemble des FCT dans la PRC<br><br><br>En fonction de l’âge du DE, elle est d’une durée de:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 24 mois pour les demandeurs d’emploi de moins de 55 ans<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 36 mois pour les demandeurs d’emploi de 55 ans et plus.<br><br><br>Pour les FGD jusqu’au 31/03/25 :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 24 mois pour les demandeurs d’emploi de moins de 53 ans<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 36 mois pour les demandeurs d’emploi de 53 ans et plus.",
+        text: "",
         image: "assets/contenu-1.jpg" 
     },
     22: { 
@@ -207,6 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
