@@ -15,7 +15,7 @@ const ADVENT_CONTENT = {
         image: "assets/contenu-1.jpg" 
     },
     2: { 
-        title: "Jour 2 : Le paiement provisoire par avance -  PPA ", 
+        title: "Jour 2 : Le paiement provisoire par avance -  PPA", 
         text: "un paiement provisoire par avance peut être versé à un allocataire qui ne fournit pas les justificatifs concernant son activité reprise lors de son actualisation.<br>Pour avoir droit au PPA, plusieurs critères sont requis :<br>• être éligible au PPA <br>• être toujours à la recherche d’un emploi<br>• déclarer les montants des rémunérations issues de la reprise d’activité en l’absence des justificatifs<br><br>Ne sont pas éligibles au paiement provisoire :<br><br> • contrat aidé <br>• bénéficiaire saisie arrêt ou pension alimentaire <br>• bénéficiaire acompte non soldé <br>• allocation hors RAC<br>• exclusion individuelle - MATA <br>• en cours activité conservée <br>• Ouverture de Droit ARE au titre d’une convention de gestion.<br><br>Le PPA représente 80% de ce qui devrait être payé sur la base des informations transmises par l’allocataire. Son paiement s’effectue au plus tôt de l’actualisation, au moment du paiement principal cette avance fera l’objet d’une régularisation dès la prochaine mise en paiement, qu’elle concerne le mois en question ,lors de la communication des justificatifs manquants, ou une autre période, antérieure ou postérieure au PPA.<br> L’avance peut ainsi être récupérée sur tous les paiements à venir - ARE, AREF, ARCE, ASP et ASP ARE-.",
         image: "assets/contenu-1.jpg" 
     },
@@ -113,12 +113,12 @@ const ADVENT_CONTENT = {
     },
     21: { 
         title: "Jour 21 : Déterminer la période de référence affiliation (PRA) ", 
-        text: "La période de référence affiliation est la période durant laquelle France Travail recherche :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ la condition d’affiliation minimale de droit commun 130 jours travaillés ou 910 h ;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ à défaut, pour les FCT à compter du 01/04/25 sauf engagement de procédure de licenciement avant cette date, une condition d’affiliation dérogatoire peut-être recherchée, exclusivement en contrats saisonniers de 108 JT ou 758 h.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ la période de référence calcul (PRC) nécessaire pour déterminer le SJR. Pour l’affiliation saisonnière, on totalisera l’ensemble des FCT dans la PRC<br><br><br>En fonction de l’âge du DE, elle est d’une durée de :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 24 mois pour les demandeurs d’emploi de moins de 55 ans<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 36 mois pour les demandeurs d’emploi de 55 ans et plus.<br><br><br>Pour les FGD jusqu’au 31/03/25 :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 24 mois pour les demandeurs d’emploi de moins de 53 ans <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 36 mois pour les demandeurs d’emploi de 53 ans et plus.",
+        text: "La période de référence affiliation est la période durant laquelle France Travail recherche:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ la condition d’affiliation minimale de droit commun 130 jours travaillés ou 910 h<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ à défaut, pour les FCT à compter du 01/04/25 sauf engagement de procédure de licenciement avant cette date, une condition d’affiliation dérogatoire peut-être recherchée, exclusivement en contrats saisonniers de 108 JT ou 758 h.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ la période de référence calcul (PRC) nécessaire pour déterminer le SJR. Pour l’affiliation saisonnière, on totalisera l’ensemble des FCT dans la PRC<br><br><br>En fonction de l’âge du DE, elle est d’une durée de:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 24 mois pour les demandeurs d’emploi de moins de 55 ans<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 36 mois pour les demandeurs d’emploi de 55 ans et plus.<br><br><br>Pour les FGD jusqu’au 31/03/25 :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 24 mois pour les demandeurs d’emploi de moins de 53 ans<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ 36 mois pour les demandeurs d’emploi de 53 ans et plus.",
         image: "assets/contenu-1.jpg" 
     },
     22: { 
         title: "Jour 22 : Le droit d’option  ", 
-         text: "Le droit d’option est ouvert à tous les DE ayant un reliquat de droit ARE non déchu et qui remplissent à nouveau les conditions d’OD au titre du Régime Général (RG) ou d’une de ses annexes : affiliation, chômage involontaire, etc.<br>Le droit d'option est possible dans les 3 situations suivantes :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• le reliquat de droit ARE a été ouvert au titre d’une fin de contrat d’apprentissage ou de professionnalisation<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• le montant brut du droit ARE en cours est inférieur ou égal à 20 €<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• le capital du nouveau droit ARE auquel le DE peut prétendre est supérieur d’au moins 30 % au capital du reliquat de droits (pour les FCT à compter du 01/11/2019)",
+         text: "Le droit d’option est ouvert à tous les DE ayant un reliquat de droit ARE non déchu et qui remplissent à nouveau les conditions d’Ouverture de Droit au titre du Régime Général (RG) ou d’une de ses annexes : affiliation, chômage involontaire, etc.<br>Le droit d'option est possible dans les 3 situations suivantes:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• le reliquat de droit ARE a été ouvert au titre d’une fin de contrat d’apprentissage ou de professionnalisation<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• le montant brut du droit ARE en cours est inférieur ou égal à 20 €<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• le capital du nouveau droit ARE auquel le DE peut prétendre est supérieur d’au moins 30 % au capital du reliquat de droits (pour les FCT à compter du 01/11/2019)",
         image: "assets/contenu-1.jpg" 
     },
     23: { 
@@ -207,6 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
