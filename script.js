@@ -123,7 +123,7 @@ const ADVENT_CONTENT = {
     },
     23: { 
         title: "Jour 23 : Trouver le bon simulateur ou la bonne information en quelques clics ", 
-        text: "Ce point d’entrée unique guide les utilisateurs vers le bon outil pour estimer et connaître leurs droits à indemnisation.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ Quelle que soit la situation professionnelle : en cas de perte ou de reprise d’activité, d’entrée en formation ou encore de création d’entreprise.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▪Quel que soit le profil de la personne : demandeur d’emploi recevant l’ARE, l’ASS, le RSA ou aucune allocation, salariés en reconversion professionnelle, ou travailleur indépendant…<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ Quel que soit son secteur: régime général, intermittent du spectacle, relevant d’une réglementation particulière... Chaque situation trouve sa réponse !<br><br><br>Côté conseiller, ce guide des simulateurs permet de mieux accompagner nos publics :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ En luttant contre le non-recours aux droits en présentant l’ensemble des possibilités d’indemnisation,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ En donnant de la visibilité financière et en rassurant sur l’avenir, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ En rendant les demandeurs d’emploi autonomes dans l’utilisation de nos outils,<br><br><br>Les utilisateurs peuvent y accéder depuis la page d’accueil du site de France Travail ainsi que dans leur espace personnel. ",
+        text: "Ce point d’entrée unique guide les utilisateurs vers le bon outil pour estimer et connaître leurs droits à l'indemnisation.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ Quelle que soit la situation professionnelle : en cas de perte ou de reprise d’activité, d’entrée en formation ou encore de création d’entreprise.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▪Quel que soit le profil de la personne : demandeur d’emploi recevant l’ARE, l’ASS, le RSA ou aucune allocation, salariés en reconversion professionnelle, ou travailleur indépendant…<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ Quel que soit son secteur: régime général, intermittent du spectacle, relevant d’une réglementation particulière... Chaque situation trouve sa réponse !<br><br><br>Côté conseiller, ce guide des simulateurs permet de mieux accompagner nos publics :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ En luttant contre le non-recours aux droits en présentant l’ensemble des possibilités d’indemnisation,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ En donnant de la visibilité financière et en rassurant sur l’avenir, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ En rendant les demandeurs d’emploi autonomes dans l’utilisation de nos outils,<br><br><br>Les utilisateurs peuvent y accéder depuis la page d’accueil du site de France Travail ainsi que dans leur espace personnel. ",
         image: "assets/contenu-1.jpg" 
     },
     24: { 
@@ -209,6 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
