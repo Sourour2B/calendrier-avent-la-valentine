@@ -128,7 +128,7 @@ const ADVENT_CONTENT = {
     },
  24: { 
         title: "Jour 24 : Joyeux Réveillon !", 
-        text: " Voici un cadeau spécial : 🎁<br><br> <a href="https://www.youtube.com/watch?v=I0dzWSb1hgo" target="_blank" style="color: #ff0000; font-weight: bold; text-decoration: underline;"> Cliquez ici pour visionner votre surprise sur YouTube !</a>",
+        text: " Voici un cadeau spécial : 🎁<br><br>Copier puis coller le lien dans votre navigateur (chrome) : https://www.youtube.com/watch?v=I0dzWSb1hgo",
         image: "assets/contenu-1.jpg" 
     },
 };
@@ -210,5 +210,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
