@@ -184,17 +184,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // 3. Fonction pour afficher la fenêtre modale
-function showModalContent(dayNumber) {
-    const content = ADVENT_CONTENT[dayNumber];
-    if (content) {
-        // C'est bien .innerHTML qu'il faut utiliser ici
-        modalBody.innerHTML = `
-            <h2>${content.title}</h2>
-            <img src="${content.image}" alt="Image">
-            <p>${content.text}</p>
-        `;
+    function showModalContent(dayNumber) {
+        const content = ADVENT_CONTENT[dayNumber];
+        
+        if (!content) {
+            modalBody.innerHTML = `<h2>Jour ${dayNumber}</h2><p>Le contenu de ce jour est manquant. Revenez plus tard !</p>`;
+        } else {
+            modalBody.innerHTML = `
+                <h2>${content.title}</h2>
+                <img src="${content.image}" alt="Contenu du jour ${dayNumber}">
+                <p>${content.text}</p>
+            `;
+        }
+
+        modalOverlay.classList.remove('hidden');
     }
-}
+
 
     // 4. Fermer la modale
     closeModal.addEventListener('click', () => {
@@ -208,6 +213,7 @@ function showModalContent(dayNumber) {
     });
 
 });
+
 
 
 
