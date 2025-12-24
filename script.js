@@ -1,5 +1,4 @@
-
-  // --- CONFIGURATION ---
+// --- CONFIGURATION ---
 // ATTENTION : Le script utilise l'heure locale de l'utilisateur.
 
 const DECEMBER = 11; // JavaScript compte les mois de 0 (Jan) à 11 (Dec)
