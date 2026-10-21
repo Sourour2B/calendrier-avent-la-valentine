@@ -158,8 +158,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const dayNumber = parseInt(day.getAttribute('data-day'));
 
 
-// Seuls les jours passés et le jour J peuvent être ouverts, et uniquement en Décembre
-        if (isDecember && dayNumber <= currentDay) {
+// Seuls les jours passés et le jour J peuvent être ouverts, et uniquement en Décembre  (isDecember && dayNumber <= currentDay)
+// tous les jours peuvent être ouvert (true)
+        if (true) {
             day.classList.add('unlocked');
         } else {
              // Astuce : afficher le numéro pour les jours bloqués (si aucune image de porte n'est mise)
